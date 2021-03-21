@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:rms_mobile_app/screens/on_board_screen/on_boarding_screen.dart';
 
-import 'screens/properties/list_of_properties.dart';
+import 'bloc_presentation_layer/screens/on_board_screen/on_boarding_screen.dart';
+import 'bloc_presentation_layer/screens/properties/list_of_properties.dart';
 
 void main() {
   runApp(RmsApp());

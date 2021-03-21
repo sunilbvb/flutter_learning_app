@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rms_mobile_app/screens/on_board_screen/slider.dart';
+import 'slider.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   @override

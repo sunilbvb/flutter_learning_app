@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nice_button/nice_button.dart';
-import 'package:rms_mobile_app/widgets/navigation_routes/navigation_routes.dart';
 
+import '../../widgets/navigation_routes/navigation_routes.dart';
 import 'invoice_description.dart';
 
 class ListOfInvoices extends StatefulWidget {

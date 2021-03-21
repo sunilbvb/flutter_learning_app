@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rms_mobile_app/widgets/navigation_routes/navigation_routes.dart';
 
+import '../../widgets/navigation_routes/navigation_routes.dart';
 import 'tenant_description.dart';
 import 'package:flutter_button/flutter_button.dart';
 

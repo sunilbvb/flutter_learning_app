@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rms_mobile_app/widgets/navigation_routes/navigation_routes.dart';
+import '../widgets/navigation_routes/navigation_routes.dart';
 import 'tenants/list_of_tenants.dart';
 import 'invoices/list_of_invoices.dart';
 import 'properties/list_of_properties.dart';

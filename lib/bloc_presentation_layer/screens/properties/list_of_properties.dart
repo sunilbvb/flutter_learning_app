@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_awesome_buttons/flutter_awesome_buttons.dart';
-import 'package:rms_mobile_app/widgets/navigation_routes/navigation_routes.dart';
 
+import '../../widgets/navigation_routes/navigation_routes.dart';
 import 'property_description.dart';
 
 class ListOfProperties extends StatefulWidget {
