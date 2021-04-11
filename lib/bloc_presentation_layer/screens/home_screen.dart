@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:rms_mobile_app/learning/audio_player_screen.dart';
+import 'package:rms_mobile_app/learning/dice_screen.dart';
+import 'package:rms_mobile_app/learning/lerning_screen.dart';
+import 'file:///D:/InfiProton/PROJECTS/flutter_learning_app/lib/learning/quiz/quiz_screen.dart';
 import '../widgets/navigation_routes/navigation_routes.dart';
 import 'tenants/list_of_tenants.dart';
 import 'invoices/list_of_invoices.dart';
@@ -68,6 +72,38 @@ class HomeScreenState extends State<HomeScreen> {
               ),
               onPressed: () {
                 navigateToPageWithLR(context, ListOfUnits());
+              },
+            ),
+            TextButton(
+              child: Text(
+                "Navigate to Profile Screen",
+              ),
+              onPressed: () {
+                navigateToPageWithLR(context, LearningScreen());
+              },
+            ),
+            TextButton(
+              child: Text(
+                "Navigate to Dice Screen",
+              ),
+              onPressed: () {
+                navigateToPageWithLR(context, DiceScreen());
+              },
+            ),
+            TextButton(
+              child: Text(
+                "Navigate to Audio Player Screen",
+              ),
+              onPressed: () {
+                navigateToPageWithLR(context, AudioPlayerScreen());
+              },
+            ),
+            TextButton(
+              child: Text(
+                "Navigate to Quiz Screen",
+              ),
+              onPressed: () {
+                navigateToPageWithLR(context, QuizScreen());
               },
             ),
           ],

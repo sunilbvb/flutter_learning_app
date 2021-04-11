@@ -108,7 +108,7 @@ final List<OnBoardModel> onBoardData = [
   const OnBoardModel(
     title: "Set your own goals and get better",
     description: "Goal support your motivation and inspire you to work harder",
-    imgUrl: "assets/slider_images/slider_1.png",
+    imgUrl: "`assets/slider_images/slider_1.png`",
   ),
   const OnBoardModel(
     title: "Track your progress with statistics",

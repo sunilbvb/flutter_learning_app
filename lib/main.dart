@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 
 import 'bloc_presentation_layer/screens/on_board_screen/on_boarding_screen.dart';
 import 'bloc_presentation_layer/screens/properties/list_of_properties.dart';
+import 'learning/youtube/widgets/progress_dialog.dart';
 
 void main() {
   runApp(RmsApp());
@@ -38,7 +39,8 @@ class RmsAppState extends State<RmsApp> {
         // '/': (context) => FirstScreen(),
         '/ListOfProperties': (context) => ListOfProperties(),
       },
-      home: OnBoardingScreen(),
+      home:ProgressDialogScreen(),
+      // OnBoardingScreen(),
     );
   }
 }
