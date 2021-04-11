@@ -19,6 +19,7 @@ dependencies:
   flutter_awesome_buttons: ^0.1.0
   flutter_button: ^0.0.4
   audioplayers: ^0.18.2
+  intl: ^0.17.0
 
   flutter:
     sdk: flutter
